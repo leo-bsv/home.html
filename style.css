@@ -16,12 +16,6 @@
 }
 
 @font-face {
-    font-family: Raleway-Thin;
-    src: url(fonts/Raleway-Thin.ttf);
-}
-
-
-@font-face {
     font-family: Raleway-Regular;
     src: url(fonts/Raleway-Regular.ttf);
 }
@@ -186,9 +180,10 @@ body {
 	text-transform: uppercase;
 	margin: 0px;
 	padding: 0px;
+	list-style: none;
 }
 
-.main-menu ol {
+.main-menu li {
 	margin: 0px;
 	padding: 0px;
 	font-family: Roboto-Bold;
@@ -196,7 +191,7 @@ body {
 }
 
 
-.main-menu ol:first-child {
+.main-menu li:first-child {
 	width: 230px;
 	height: 66px;
 	background-color:  #333333;
@@ -206,7 +201,7 @@ body {
 
 }
 
-.main-menu ol a {
+.main-menu li a {
 	display: block;
 	width: 230px;
 	height: 37px;
@@ -218,7 +213,7 @@ body {
 	padding-left: 40px;
 }
 
-.main-menu ol a:hover {
+.main-menu li a:hover {
 	background-color:  #333333;
 	font-family: Roboto-Bold;
 	color:  #ffffff;
